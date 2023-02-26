@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150%;
+}
+
+.head{
+    background-image: url(123.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.text{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 22px;
+    width: 70%;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li:after {
+  content: "|";
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.menu li:last-child:after {
+  content: none;
+}
+
+.menu a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color 1.99s;
+    color: white;
+}
+
+.menu a:hover{
+    color: rgba(2, 154, 12, 0.797);
+} 
+.title_header{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.sub_title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.content{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_text{
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 0 0 0;
+    margin-top: 50px;
+}
+
+.style_img{
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 15px 10px 0;
+}
+.dir{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p{
+    padding: 0px 50px 10px 50px;
+    font-size: 20px;
+}
+
+.pic{
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+img{
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

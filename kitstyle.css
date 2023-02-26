@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.style_img{
+    width: 250px;
+    height: 250px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 50%;
+    float: right;
+    margin: 0 0 10px 15px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150%;
+}
+
+.head{
+    background-image: url(4c0329906f10ed0418d2da9e33d82a84.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.text{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 22px;
+    width: 70%;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li:after {
+  content: "|";
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.menu li:last-child:after {
+  content: none;
+}
+
+.menu a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color 1.99s;
+    color: white;
+}
+
+.menu a:hover{
+    color: rgba(2, 154, 12, 0.797);
+} 
+
+.title_header{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.sub_title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.content{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_text{
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 0 0 0;
+    margin-top: 50px;
+}
+
+img{
+    width: 800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: rgb(224, 224, 224);
+}
+.board{
+    height: 200px;
+    
+}

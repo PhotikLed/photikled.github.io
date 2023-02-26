@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150%;
+}
+
+.head{
+    background-image: url(header_bg.jpg);
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.text{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 22px;
+    width: 70%;
+}
+
+.menu{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li:after {
+  content: "|";
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.menu li:last-child:after {
+  content: none;
+}
+
+.menu a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color 1.99s;
+    color: white;
+}
+
+.menu a:hover{
+    color: rgba(2, 154, 12, 0.797);
+} 
+
+.title_header{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.sub_title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.content{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_text{
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 25px 0 0 0;
+    margin-top: 50px;
+}
+
+.style_img{
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 15px 10px 0;
+}
+
+.img{
+    background-image: url(img_cat.jpeg);
+
+}
+
+.img_1{
+    background-image: url(https://www.amworld.ru/upload/000/u3/9/e/88fff4c9.jpg);
+}
+
+.img_2{
+    background-image: url(https://otvet.imgsmail.ru/download/24542314_7a7cc9173dede5692a7070917736d2c1_800.jpg);
+}
+
+.img_3{
+    background-image: url(https://adonius.club/uploads/posts/2022-06/1654077573_9-adonius-club-p-mnogo-kotikov-krasivo-foto-9.jpg);
+}
+
+.img_4{
+    background-image: url(https://s1.1zoom.ru/b5050/404/Cats_Glasses_Book_476440_1600x1200.jpg);
+}
+
+.img_5{
+    background-image: url(https://f.otzyv.ru/f/11/06/80843/5656/0305122223541.jpg);
+}
+
+.img_6{
+    background-image: url(https://postila.ru/data/0d/cc/24/6d/0dcc246daca2912748deecc2136c9b142aad5661141785d434e161e3c32aa114.jpg);
+}
+
+.img_7{
+    background-image: url(http://goodnewsanimal.ru/_nw/63/37978667.jpg);
+}
+
+.img_8{
+    background-image: url(https://bugaga.ru/uploads/posts/2016-04/1461579647_koshki-i-mashinki.jpg);
+}
+
+.img_9{
+    background-image: url(https://proza.ru/pics/2020/02/02/1723.jpg);
+}
+
+.img_10{
+    background-image: url(https://fanibani.ru/wp-content/uploads/2021/07/top30002.jpg);
+}
+
+.dir{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer{
+    background-color: rgb(38, 38, 38);
+    height: 200px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.board{
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
